@@ -8,10 +8,10 @@ public class MGame {
     private static int N;
 
     public MGame(int numPlayer) {
-        this(numPlayer,50);
+        this(numPlayer,20);
     }
     public MGame(int numPlayer,int numRound){
-        this(numPlayer,numRound,40);
+        this(numPlayer,numRound,50);
     }
     public MGame(int numPlayer, int numRound, int numSqrs){
         this(numPlayer,numRound,numSqrs,2);
